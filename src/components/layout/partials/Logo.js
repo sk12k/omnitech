@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Image from '../../elements/Image';
+import { ReactComponent as LogoR } from '../../../assets/images/logo.svg';
 
 const Logo = ({
   className,
@@ -19,12 +19,8 @@ const Logo = ({
       className={classes}
     >
       <h1 className="m-0">
-        <Link to="/">
-          <Image
-            src={require('./../../../assets/images/logo.svg')}
-            alt="Open"
-            width={32}
-            height={32} />
+        <Link to="/omnitech">
+          <LogoR />
         </Link>
       </h1>
     </div>
