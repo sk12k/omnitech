@@ -47,22 +47,29 @@ const Cta = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container" id="about">
         <div
           className={innerClasses}
         >
-          {/* <div className="cta-slogan">
-            <h3 className="m-0">
-              For previewing layouts and visual?
-              </h3>
-          </div> */}
-          <div className="cta-action">
+          <div className="cta-slogan">
+            <h2 className="m-0">
+              About Us
+              </h2>
+          </div>
+          <p style={{color: "white"}}>
+          Omnitech Solutions is the world’s #1 online bootcamp and one of the
+            world’s leading certification training providers. We partner with
+            companies and individuals to address their unique needs, providing
+            training and coaching that helps working professionals achieve their
+            career goals.
+          </p>
+          {/* <div className="cta-action">
             <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
               <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
             </Input>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

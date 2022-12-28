@@ -6,10 +6,7 @@ import emailjs from "@emailjs/browser";
 
 const { TextArea } = Input;
 
-const initialToSend = { from_name: "",
-mobile: "",
-message: "",
-reply_to: "",}
+const initialToSend = { from_name: "", mobile: "", message: "", reply_to: "" };
 
 const FooterNav = ({ className, ...props }) => {
   const classes = classNames("footer-nav", className);
@@ -43,7 +40,7 @@ const FooterNav = ({ className, ...props }) => {
       .send("service_rob7hlp", "template_35t3u2s", toSend, "vsWtSuQGus7fgmimP")
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        setToSend(initialToSend)
+        setToSend(initialToSend);
       })
       .catch((err) => {
         console.log("FAILED...", err);
@@ -109,14 +106,19 @@ const FooterNav = ({ className, ...props }) => {
             </Link>
           </li>
           <li>
-            <Link to="#0">About us</Link>
+            <Link
+              to="#about"
+              // onClick={}
+            >
+              About us
+            </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="#0">FAQ's</Link>
           </li>
           <li>
             <Link to="#0">Support</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
