@@ -14,7 +14,7 @@ const Home = () => {
       <FeaturesTiles topDivider/>
       <FeaturesSplit invertMobile topDivider bottomDivider imageFill className="illustration-section-02" />
       <Testimonial  bottomDivider />
-      <FAQs bottomDivider />
+      <FAQs  />
       <Cta split  />
     </>
   );

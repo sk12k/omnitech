@@ -54,10 +54,10 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={tilesClasses}>
-            <Tile title="DevOps and Cloud Labs" description="On-demand Pre-configured Virtual machine infrastructure for DevOps and BigData or cloud based hands-on lab environment built on top of AWS, Azure, GCP, oracle and more." />
-            <Tile title="Self-Paced Courses" description="A comprehensive list of DevOps and Cloud topics to help you ramp-up on latest technologies in a completely self paced manner with flexible pricing." />
-            <Tile title="Live Instructor-Led Courses" description="Get in touch with us for regular B2B and B2C live instructor led classes." />
-            <Tile title="Content Development" description="Need Presentations, assignments, hands-on labs for your team or project? We can help!" />
+            <Tile icon="cloud" title="DevOps and Cloud Labs" description="On-demand Pre-configured Virtual machine infrastructure for DevOps and BigData or cloud based hands-on lab environment built on top of AWS, Azure, GCP, oracle and more." />
+            <Tile icon="mobile" title="Self-Paced Courses" description="A comprehensive list of DevOps and Cloud topics to help you ramp-up on latest technologies in a completely self paced manner with flexible pricing." />
+            <Tile icon="desktop" title="Live Instructor-Led Courses" description="Get in touch with us for regular B2B and B2C live instructor led classes." />
+            <Tile icon="content" title="Content Development" description="Need Presentations, assignments, hands-on labs for your team or project? We can help!" />
           </div>
         </div>
       </div>

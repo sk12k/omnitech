@@ -73,7 +73,7 @@ const FAQs = ({
   );
 
   const innerClasses = classNames(
-    "testimonial-inner section-inner mb-32",
+    "testimonial-inner section-inner mb-16",
     topDivider && "has-top-divider",
     bottomDivider && "has-bottom-divider"
   );
