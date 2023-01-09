@@ -9,7 +9,7 @@ export const coursesData = [
       { title: "Terraform", desc: "Terraform is an IAC tool, used primarily by DevOps teams to automate various infrastructure tasks." },
       { title: "Nagios", desc: "Nagios is an open source monitoring system for computer systems. It was designed to run on the Linux operating system and can monitor devices running Linux, Windows and Unix operating systems (OSes)." },
     ],
-    image: "devops1.jpeg",
+    image: "devops.jpeg",
   },
   {
     title: "Cloud",
@@ -18,7 +18,6 @@ export const coursesData = [
       { title: "AWS", desc: "AWS is designed to allow application providers, ISVs, and vendors to quickly and securely host your applications – whether an existing application or a new SaaS-based application. " },
       { title: "Azure", desc: "Microsoft Azure, formerly known as Windows Azure, is Microsoft's public cloud computing platform. It provides a broad range of cloud services, including compute, analytics, storage and networking." },
       { title: "GCP", desc: "The Google Cloud console provides a web-based, graphical user interface that you can use to manage your Google Cloud projects and resources." },
-      { title: "Open Shift", desc: "Red Hat OpenShift is a cloud-based Kubernetes platform that helps developers build applications. It offers automated installation, upgrades, and life cycle management throughout the container stack — the operating system, Kubernetes and cluster services, and applications — on any cloud." },
     ],
     image: "cloud.jpeg",
   },
