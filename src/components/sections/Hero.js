@@ -76,10 +76,10 @@ const Hero = ({
                     </Button>
                 </ButtonGroup> */}
                 <Image
-                  src={require('./../../assets/images/devops.jpeg')}
+                  src={require('./../../assets/images/main_pic.jpeg')}
                   alt="Features split 01"
 
-                  width={800}
+                  width={1200}
                   height={600} />
               </div>
             </div>
