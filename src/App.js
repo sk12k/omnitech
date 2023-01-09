@@ -35,6 +35,9 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Routes>
+          <Route path="/" element={ <LayoutDefault>
+          <Home />
+        </LayoutDefault>} />
             <Route path="/omnitech" element={ <LayoutDefault>
           <Home />
         </LayoutDefault>} />
